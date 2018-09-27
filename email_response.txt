@@ -1,0 +1,17 @@
+Dear Customer,
+
+It appears you have 10005 errors in your log file. If you run the following
+command on your log, you should be able to get a handle on where the errors are:
+
+grep -c "error" logs.txt
+
+That command will give you the error count. Removing the "-c" should give you
+a list of the actual errors.
+
+Let me know if you have any more questions.
+
+Regards,
+
+Robert Case...
+
+
